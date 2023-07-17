@@ -1,0 +1,11 @@
+Party of Couples
+
+https://practice.geeksforgeeks.org/problems/alone-in-couple5507/1?page=1&difficulty[]=-2&sprint=a663236c31453b969852f9ea22507634&sortBy=submissions
+
+class Solution:
+    def findSingle(self, N, arr):
+        xor=0
+        for i in arr:
+            xor=xor^i
+        return xor
+        # code here
